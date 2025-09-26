@@ -102,10 +102,4 @@ receiver.process(adc_value)
 
 Apache 2.0 - Use freely in personal and commercial projects
 
-## Contributing
 
-Issues and pull requests welcome! Potential improvements:
-- Forward error correction
-- Multi-channel transmission  
-- Protocol optimization
-- Additional platform support
