@@ -2,6 +2,8 @@
 
 A simple, reliable system for transmitting digital data using screen flashing and photocell reception. Ideal for air-gapped communication, IoT sensor data collection, and educational demonstrations.
 
+My product, the [Halo Clock](https://haloclock.ca), uses this for configuration.
+
 ## How It Works
 
 FlashNet uses **pulse width modulation** over light signals to transmit binary data:
