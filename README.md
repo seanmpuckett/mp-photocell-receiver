@@ -45,16 +45,16 @@ receiver.process(adc_value)
 
 ## Technical Specifications
 
-- **Data rate**: ~10-50 bytes/second (depending on pulse timing)
-- **Range**: Limited by photocell sensitivity (typically 0.5-2 meters)
+- **Data rate**: ~1 byte/second (depending on pulse timing)
+- **Range**: Limited by photocell sensitivity and screen brightness (typically a few cm is ok)
 - **Error detection**: 8-bit checksum validation
-- **Maximum packet**: 70 bytes
+- **Maximum packet**: 70 bytes (configurable)
 - **Timing**: 60-100ms pulses recommended for reliability
 
 ## Hardware Requirements
 
 ### Transmitter
-- Any device with a web browser and display
+- Any device with a web browser and display 
 - Smartphone, tablet, laptop, or desktop computer
 
 ### Receiver  
