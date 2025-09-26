@@ -62,7 +62,6 @@ flashnetSend = function(pulsewidth, data, elem) {
             // Transmission complete
             elem.style.backgroundColor = "#ccc";  // Neutral color
             clearInterval(timer);
-            isSending = 0;  // Note: assumes global isSending flag exists
         } else if (--queue[0] <= 0) {
             // Current pulse complete - move to next pulse and toggle state
             queue.shift();
