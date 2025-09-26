@@ -1,4 +1,4 @@
-# FlashNet: Optical Data Transmission
+# FlashNet
 
 A simple, reliable system for transmitting digital data using screen flashing and photocell reception. Ideal for air-gapped communication, IoT sensor data collection, and educational demonstrations.
 
