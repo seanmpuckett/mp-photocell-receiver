@@ -60,7 +60,7 @@ receiver.process(adc_value)
 ### Receiver  
 - Microcontroller with ADC input (Arduino, Raspberry Pi Pico, ESP32, etc.)
 - Photocell/light-dependent resistor (LDR)
-- Pull-up resistor (1-10kΩ typical)
+- Bias resistors (10kΩ typical)
 
 ### Simple Wiring
 ```
